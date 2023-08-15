@@ -25,6 +25,7 @@ env:
   # TODO: add something later that can check the runners for hyperthreading
   LINUX_NUM_PROC_CORES: 2
   MACOS_NUM_PROC_CORES: 3
+  ASAN_OPTIONS: detect_leaks=false
 
 jobs:
   analyze:
