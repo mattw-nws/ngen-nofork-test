@@ -85,7 +85,7 @@ jobs:
     - name: Build ngen
       uses: ./.github/actions/ngen-build
       with:
-        targets: "ngen test_unit"
+        targets: "ngen"
         build-cores: ${{ env.LINUX_NUM_PROC_CORES }}
 
     - name: Perform CodeQL Analysis
