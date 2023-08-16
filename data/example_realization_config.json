@@ -98,7 +98,9 @@
               "path": "./data/forcing/cat-67_2015-12-01 00_00_00_2015-12-30 23_00_00.csv"
           },
           "username": "nreal",
-          "password": "t0p_S3cre+!"
+          "password": "t0p_S3cre+!",
+          "url_ftp": "ftp://nreal:t0p_S3cre+!@ftp.noaa.gov/pub/stuff",
+          "url_https": "https://nreal:t0p_S3cre+!@data.noaa.gov/private/data"
         }
     }
 }
